@@ -16,7 +16,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	@Autowired
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
